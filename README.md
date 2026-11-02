@@ -24,3 +24,5 @@ On `main`, `tests/test_peak_load.py::test_pool_serves_peak_checkout_traffic` fai
 | `checkout_api/checkout.py` | Serves a burst of checkouts and counts the failures |
 | `tests/test_pool.py` | Pool behaviour (passes) |
 | `tests/test_peak_load.py` | The gate (fails until the pool is sized for peak traffic) |
+
+Linear link check: TRI-17.
